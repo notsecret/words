@@ -1,10 +1,8 @@
 var abc=' abcdefghijklmnopqrstuvwxyz';
 
 function xsum(a,b){
-	var pos_a=abc.indexOf(a);
-	var pos_b=abc.indexOf(b);
-	console.log('xsum: ',a,b);
-	console.log('pos: ',pos_a,pos_b);
+	var pos_a=abc.indexOf(a.toLowerCase());
+	var pos_b=abc.indexOf(b.toLowerCase());
 	if( (pos_a==-1) || (pos_b==-1) ) alert('not found');
 	var sum=pos_a+pos_b;
 	
@@ -16,8 +14,8 @@ function xsum(a,b){
 }
 
 function xdiff(a,b){
-	var pos_a=abc.indexOf(a);
-	var pos_b=abc.indexOf(b);
+	var pos_a=abc.indexOf(a.toLowerCase());
+	var pos_b=abc.indexOf(b.toLowerCase());
 	if( (pos_a==-1) || (pos_b==-1) ) alert('not found');
 	var sum=pos_a-pos_b;
 	
