@@ -62,6 +62,3 @@ var enigmapp = new Vue({
 		}
 	}
 });
-
-//alert(worddiff('to kiss you','i have a dream'));
-//alert(wordsum('kosjnnszykc','i have a dream'));
